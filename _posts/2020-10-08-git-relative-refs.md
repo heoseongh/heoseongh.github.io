@@ -1,9 +1,9 @@
 ---
-layout: post
+#layout: post
 title: "상대참조(^) (Relative Refs)"
-date: 2016-09-26 14:31:00 +0900
-categories: OOP
-description: 상대 참조 활용법
+#date: 2016-09-26 14:31:00 +0900
+#categories: OOP
+#description: 상대 참조 활용법
 ---
 # # 상대참조(^) (Relative Refs)
 
@@ -47,7 +47,7 @@ HEAD의 현재 위치는 ae797ff Initial commit
 ```bash
 $ git checkout master^		# master 브랜치의 이전 커밋으로 이동
 $ git checkout master^^		# master 브랜치의 전전 커밋으로 이동
-$ git checkout user^			# user 브랜치의 이전 커밋으로 이동
+$ git checkout user^		# user 브랜치의 이전 커밋으로 이동
 ```
 
 ```bash
