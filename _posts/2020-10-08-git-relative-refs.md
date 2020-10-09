@@ -1,3 +1,10 @@
+---
+layout: post
+title: "상대참조(^) (Relative Refs)"
+date: 2016-09-26 14:31:00 +0900
+categories: OOP
+description: 상대 참조 활용법
+---
 # # 상대참조(^) (Relative Refs)
 
 * git에서 여기저기 이동할 때 사용한다.
