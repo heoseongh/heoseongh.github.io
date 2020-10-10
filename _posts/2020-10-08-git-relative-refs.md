@@ -1,3 +1,13 @@
+---
+title: "Git 과거로 돌아가자 - 상대참조(Relative Refs)"
+subtitle: "상대참조(^)를 통해 과거로 돌아가보자."
+author: "heoseongh"
+header-style: text
+tags:
+    - git
+    - github
+    - project
+---
 # # 상대참조(^) (Relative Refs)
 
 * 명령어를 통해 현 위치를 기준으로 시점을 이동할 때 사용한다.
