@@ -1,12 +1,5 @@
 ---
 title: "Git 과거로 돌아가자 - 상대참조(Relative Refs)"
-subtitle: "상대참조(^)를 통해 과거로 돌아가보자."
-author: "heoseongh"
-header-style: text
-tags:
-    - git
-    - github
-    - project
 ---
 # # 상대참조(^) (Relative Refs)
 
@@ -50,7 +43,7 @@ HEAD의 현재 위치는 ae797ff Initial commit
 ```bash
 $ git checkout master^		# master 브랜치의 이전 커밋으로 이동
 $ git checkout master^^		# master 브랜치의 전전 커밋으로 이동
-$ git checkout user^			# user 브랜치의 이전 커밋으로 이동
+$ git checkout user^		# user 브랜치의 이전 커밋으로 이동
 ```
 
 ```bash
