@@ -1,6 +1,9 @@
+<<<<<<< HEAD
+=======
 ---
-title: "Git 과거로 돌아가자 - 상대참조(Relative Refs)"
+title : [git] 상대참조(^) (Relative Refs)
 ---
+>>>>>>> test
 # # 상대참조(^) (Relative Refs)
 
 * 명령어를 통해 현 위치를 기준으로 시점을 이동할 때 사용한다.
@@ -43,7 +46,7 @@ HEAD의 현재 위치는 ae797ff Initial commit
 ```bash
 $ git checkout master^		# master 브랜치의 이전 커밋으로 이동
 $ git checkout master^^		# master 브랜치의 전전 커밋으로 이동
-$ git checkout user^		# user 브랜치의 이전 커밋으로 이동
+$ git checkout user^			# user 브랜치의 이전 커밋으로 이동
 ```
 
 ```bash
@@ -110,7 +113,7 @@ ae797ff HEAD@{10}: checkout: moving from main to main^
 
 
 
-## # 이해한것들
+## # 이해한 것들
 
 이전 커밋으로 이동해서 파일을 수정하고 `commit`을 하면 그 시점에서 새로운(`HEAD와는 분리된`) 커밋이 생성되며 이 커밋을 명령어를 통해 `master branch`에 연결해주면 `new branch`가 만들어지는 것이다. 
 

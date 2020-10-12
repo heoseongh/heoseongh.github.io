@@ -1,4 +1,10 @@
-# Collection Framework?
+<<<<<<< HEAD
+=======
+---
+title : 컬렉션 프레임워크란?
+---
+>>>>>>> test
+# 컬렉션 프레임워크란?
 
 - 프로그램 구현에 필요한 자료구조와 알고리즘을 구현해 놓은 라이브러리
 - java.util 패키지에 포함. (JDK1.2부터 제공)
@@ -10,7 +16,7 @@
 - 하나의 객체의 관리를 위해 선언된 인터페이스로 필요한 기본 메서드가 선언되어 있음
 - 하위에 **List, Set** 인터페이스가 있음
 
-![이미지](https://github.com/heoseongh/asserts/blob/master/img/java/2020-10-07-collection-1.png?raw=true)
+![이미지](https://github.com/heoseongh/heoseongh.github.io/tree/main/assets/images/java/2020-10-07-collection-1.png)
 
 ### List 인터페이스
 
@@ -30,4 +36,5 @@
 - Map을 사용하는 객체는 key-value 쌍으로 되어 있고 key는 중복될 수 없음
 - 이 인터페이스를 구현한 클래스는 **Hashtable, HashMap, TreeMap, Properties** 등이 있다.
 
-![이미지](https://github.com/heoseongh/asserts/blob/master/img/java/2020-10-07-map-3.png?raw=true)
+![이미지](https://github.com/heoseongh/heoseongh.github.io/tree/main/assets/images/java/2020-10-07-map.png)
+
