@@ -16,6 +16,7 @@ ae797ff HEAD@{10}: checkout: moving from main to main^
 ...
 ```
 2. `git reset --hard <id>` 명령어로 복구!
+
 ```bash
 $ git reset --hard 003bfeb # 혹은 HEAD@{9}
 ```

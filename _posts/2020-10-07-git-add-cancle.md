@@ -51,7 +51,6 @@ $ git reset HEAD								# 모든 파일 add 취소
 
 - 지정한 커밋 이후의 모든 commit history가 삭제된다.
 - Ctrl + Z를 누른 것과 같은 효과
-<<<<<<< HEAD
 
 * 동작 원리 (HEAD -> D -> C -> B -> A)
 
@@ -61,17 +60,6 @@ $ git reset HEAD								# 모든 파일 add 취소
 
 ### Option
 
-=======
-
-* 동작 원리 (HEAD -> D -> C -> B -> A)
-
-  1. HEAD 포인터를 원하는 시점으로 이동시킨다. (HEAD -> C)
-
-  2. 이전 history는 지워진다. (HEAD -> C -> B -> A)
-
-### Option
-
->>>>>>> test
 #### 1) hard : commit 취소, 워킹디렉터리에서도 제거됨
 
 ```bash
@@ -79,7 +67,6 @@ $ git reset --hard HEAD^
 ```
 
 > git에는 실제 데이터를 삭제하는 방법이 별로 없지만 `--hard` 옵션은 워킹 디렉터리의 원본  파일까지 돌려놓으므로 조심하게 사용해야 한다. 이 옵션을 사용해서 삭제된 데이터는 복구할 수 없게된다.
-<<<<<<< HEAD
 
 #### 2) soft : commit만 취소(staged 상태)
 
@@ -98,24 +85,5 @@ $ git push --force
 
 ```bash
 $ git reset HEAD^ # default옵션이기 때문에 적지 않아도 된다.
-=======
-
-#### 2) soft : commit만 취소(staged 상태)
-
-```bash
-$ git reset --soft HEAD^
 ```
 
-이 상태에서 아래와 같이 커밋 메시지만 바꾸어 push 한다면 `git commit --amend -m "message"` 와 동일한 효과를 낼 수 있다.
-
-```bash
-$ git commit -m "message"
-$ git push --force
->>>>>>> test
-```
-
-#### 3) mixed : commit 취소, add 취소(index 또는 stage 초기화)
-
-```bash
-$ git reset HEAD^ # default옵션이기 때문에 적지 않아도 된다.
-```
