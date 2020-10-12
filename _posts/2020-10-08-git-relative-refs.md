@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-=======
 ---
-title : [git] 상대참조(^) (Relative Refs)
+title: "[git] 상대참조(^) (Relative Refs)"
 ---
->>>>>>> test
-# # 상대참조(^) (Relative Refs)
-
 * 명령어를 통해 현 위치를 기준으로 시점을 이동할 때 사용한다.
 * 매번 `git log` 명령으로 해시를 확인할 필요가 없다.
 

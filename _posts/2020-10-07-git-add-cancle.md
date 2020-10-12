@@ -1,8 +1,6 @@
 ---
-title : [git] add / commit 취소하기
+title: "[git] add / commit 취소하기"
 ---
-# git add / commit 취소하기
-
 ## # add 취소하기
 
 실수로 git add . 명령어를 사용해서 원하지 않는 파일까지 Staging Area에 넣은 경우, 되돌리고 싶을 때가 있을 것이다.
