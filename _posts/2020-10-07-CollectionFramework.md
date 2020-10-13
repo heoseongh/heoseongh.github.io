@@ -1,6 +1,6 @@
 ---
 title: "[JAVA] 컬렉션 프레임워크란?"
-excerpt: Collection Framework의 전체적인 구조에 대해서 알아보자."
+excerpt: "Collection Framework의 전체적인 구조에 대해서 알아보자."
 
 categories:
   - java
@@ -19,7 +19,7 @@ tags:
 - 하나의 객체의 관리를 위해 선언된 인터페이스로 필요한 기본 메서드가 선언되어 있음
 - 하위에 **List, Set** 인터페이스가 있음
 
-![이미지](https://github.com/heoseongh/heoseongh.github.io/tree/main/assets/images/java/2020-10-07-collection-1.png)
+![이미지](https://raw.githubusercontent.com/heoseongh/heoseongh.github.io/main/assets/images/java/2020-10-07-collection-1.png)
 
 ### List 인터페이스
 
@@ -39,5 +39,5 @@ tags:
 - Map을 사용하는 객체는 key-value 쌍으로 되어 있고 key는 중복될 수 없음
 - 이 인터페이스를 구현한 클래스는 **Hashtable, HashMap, TreeMap, Properties** 등이 있다.
 
-![이미지](https://github.com/heoseongh/heoseongh.github.io/tree/main/assets/images/java/2020-10-07-map.png)
+![이미지](https://raw.githubusercontent.com/heoseongh/heoseongh.github.io/main/assets/images/java/2020-10-07-map.png)
 
