@@ -1,5 +1,13 @@
 ---
 title: "[JAVA] 컬렉션 프레임워크란?"
+excerpt: Collection Framework의 전체적인 구조에 대해서 알아보자."
+
+categories:
+  - java
+tags:
+  - java
+  - collection
+  - framework
 ---
 - 프로그램 구현에 필요한 자료구조와 알고리즘을 구현해 놓은 라이브러리
 - java.util 패키지에 포함. (JDK1.2부터 제공)
