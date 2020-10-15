@@ -1,7 +1,17 @@
 ---
-title: "[git] add / commit 취소하기"
+title: "add / commit 취소하기"
+excerpt: "실수로 원하지 않는 파일까지 Staging Area에 넣은 경우, 되돌리고 싶을 때가 있을 것이다."
+
+categories:
+  - Git
+tags:
+  - Git
+  - add
+  - commit
+toc: true
+toc_sticky: true
 ---
-## # add 취소하기
+## add 취소하기
 
 실수로 git add . 명령어를 사용해서 원하지 않는 파일까지 Staging Area에 넣은 경우, 되돌리고 싶을 때가 있을 것이다.
 
@@ -43,7 +53,7 @@ $ git reset HEAD								# 모든 파일 add 취소
 
 
 
-## # commit 취소하기
+## commit 취소하기
 
 너무 일찍 commit을 했거나 어떤 파일을 빼먹고 commit한 경우 완료된 commit을 취소하는 방법을 알아보자.
 

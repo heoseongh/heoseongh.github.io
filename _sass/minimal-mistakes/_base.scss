@@ -1,6 +1,4 @@
-/* ==========================================================================
-   BASE ELEMENTS
-   ========================================================================== */
+/* 웹 기본 설정 */
 
 html {
   /* sticky footer fix */
@@ -126,12 +124,16 @@ blockquote {
 /* links */
 
 a {
+  /* 하이퍼링크 밑줄 없애기 */
+  text-decoration: none;
+
   &:focus {
     @extend %tab-focus;
   }
 
   &:visited {
     color: $link-color-visited;
+    //color: #212121;
   }
 
   &:hover {

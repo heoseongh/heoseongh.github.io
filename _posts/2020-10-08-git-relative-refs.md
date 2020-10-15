@@ -1,5 +1,15 @@
 ---
-title: "[git] 상대참조(^) (Relative Refs)"
+title: "Relative Refs - 상대참조(^)"
+excerpt: "checkout 과 상대참조를 이용하여 자유롭게 과거 시점으로 돌아가보고 reflog 명령어로 손실된 커밋의 내역을 확인해보자."
+
+categories:
+  - Git
+tags:
+  - Git
+  - checkout
+  - reflog
+toc: true
+toc_sticky: true
 ---
 * 명령어를 통해 현 위치를 기준으로 시점을 이동할 때 사용한다.
 * 매번 `git log` 명령으로 해시를 확인할 필요가 없다.
@@ -9,7 +19,7 @@ title: "[git] 상대참조(^) (Relative Refs)"
 
 ## commit 이동하기
 
-#### 특정 커밋으로 이동
+### 특정 커밋으로 이동
 
 * git log 명령어로 commit hash값을 확인하고
 * 이동할 hash 값의 맨 앞에서 6자리 고유번호만 기억하자.
@@ -36,11 +46,11 @@ Note: switching to 'ae797f'.
 HEAD의 현재 위치는 ae797ff Initial commit
 ```
 
-#### 이전 커밋으로 이동
+### 이전 커밋으로 이동
 
 ```bash
-$ git checkout master^		# master 브랜치의 이전 커밋으로 이동
-$ git checkout master^^		# master 브랜치의 전전 커밋으로 이동
+$ git checkout master^		    # master 브랜치의 이전 커밋으로 이동
+$ git checkout master^^		    # master 브랜치의 전전 커밋으로 이동
 $ git checkout user^			# user 브랜치의 이전 커밋으로 이동
 ```
 
@@ -50,7 +60,7 @@ $ git checkout HEAD^^			# 현재 브랜치의 전전 커밋으로 이동
 $ git checkout HEAD~3			# 현재 브랜치의 3전 커밋으로 이동
 ```
 
-#### 최근 커밋으로 복귀
+### 최근 커밋으로 복귀
 
 ```bash
 $ git checkout master			# mater 브랜치의 최근 커밋으로 복귀
@@ -59,7 +69,7 @@ $ git checkout user				# user 브랜치의 최근 커밋으로 복귀
 
 
 
-## # 이동을 해서 어디다 쓸까?
+## # 분리된 HEAD?
 
 커밋을 이전 시점(`ae797ff`)으로 이동한 뒤에 파일을 수정하고 commit 한 뒤 push 했더니 에러가 났다. HEAD가 다음 시점 `ae797ff` 에서 분리되었다고 한다.  무슨 일이 일어난 것일까? 아래의`log`를 살펴보자.
 
@@ -108,10 +118,10 @@ ae797ff HEAD@{10}: checkout: moving from main to main^
 
 
 
-## # 이해한 것들
+## # 그렇구나!
 
 이전 커밋으로 이동해서 파일을 수정하고 `commit`을 하면 그 시점에서 새로운(`HEAD와는 분리된`) 커밋이 생성되며 이 커밋을 명령어를 통해 `master branch`에 연결해주면 `new branch`가 만들어지는 것이다. 
 
 이론으로만 알고 있었는데 실제로 다뤄보니  정말 유용할 것 같다는 생각이 들었다. `new branch` 에서 수정한 것을 `commit`하고 `push`하기 위해서는 기존의 브랜치와 합병해주는 `merge` 작업을 수행해야 했다. 
 
-프로젝트시 팀장(`master branch`)과 여러 기능들을 구현하는 팀원(`other branches`)들을 두고 팀원들이 각각의 브랜치에서 기능을 구현한 뒤에 commit을 하고 그 기능들을 merge해서 최종적으로 팀장이 수정한 뒤에 push하는 것이라고 이해했다. 이것이 협업의 시작이로구나!
+프로젝트시 팀장(`master branch`)과 여러 기능들을 구현하는 팀원(`other branches`)들을 두고 팀원들이 각각의 브랜치에서 기능을 구현한 뒤에 commit을 하고 그 기능들을 merge해서 최종적으로 팀장이 수정한 뒤에 push하는 것이라고 이해했다.

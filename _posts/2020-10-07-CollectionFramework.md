@@ -1,11 +1,11 @@
 ---
-title: "[JAVA] 컬렉션 프레임워크란?"
+title: "컬렉션 프레임워크란?"
 excerpt: "Collection Framework의 전체적인 구조에 대해서 알아보자."
 
 categories:
-  - java
+  - Java
 tags:
-  - java
+  - Java
   - collection
   - framework
 ---

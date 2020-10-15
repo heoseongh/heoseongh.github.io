@@ -1,5 +1,13 @@
 ---
-title: "[git] .DS_Store 파일을 git에 포함되지 않도록 설정하기"
+title: ".DS_Store 파일을 git에 포함되지 않도록 설정하기"
+excerpt: ""
+
+categories:
+  - Git
+tags:
+  - Git
+  - gitignore
+  - DS_Store
 ---
 ## # 문제점
 

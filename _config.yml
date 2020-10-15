@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "Developer H"
 title_separator          : "-"
-subtitle                 : "Version 1.0" # 타이틀 아래 나오는 작은 글씨
+subtitle                 : "기술 블로그" # 타이틀 아래 나오는 작은 글씨
 name                     : "허성현"
 description              : "현재에 안주하지 않고 꾸준히 노력하는 개발자입니다."
 url                      : "https://heoseongh.github.io" # GitBlog 호스트 주소
@@ -105,12 +105,12 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://heoseongh.com/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/heoseongh"
@@ -212,7 +212,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -278,15 +278,20 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      #read_time: false   # 읽는데 걸리는 소요시간 표시
+      show_date: true   # 포스팅 날짜 표시
       comments: true
       share: true
       related: true
 
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+      read_time: false
+      comments: false
+      share: ture
+      related: false

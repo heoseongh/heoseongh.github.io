@@ -13,8 +13,10 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
+// mac 폰트를 원하면 -apple-system, BlinkMacSystemFont 를 추가하면 된다.
+// "Malgun Gothic", "맑은 고딕"
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", "Nanum Gothic", "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
@@ -113,7 +115,9 @@ $xing-color: #006567 !default;
 /* links */
 $link-color: mix(#000, $info-color, 20%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
+// $link-color-hover: $link-color;
 $link-color-visited: mix(#fff, $link-color, 15%) !default;
+// $link-color-visited: #3d4144;       // #212121;
 $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
