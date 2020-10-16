@@ -1,4 +1,6 @@
 ---
+toc: true
+toc_sticky: true
 title: "add / commit 취소하기"
 excerpt: "실수로 원하지 않는 파일까지 Staging Area에 넣은 경우, 되돌리고 싶을 때가 있을 것이다."
 
@@ -8,8 +10,6 @@ tags:
   - Git
   - add
   - commit
-toc: true
-toc_sticky: true
 ---
 ## add 취소하기
 

@@ -9,9 +9,8 @@ tags:
   - reset
   - reflog
 ---
+## `git reflog` 를 살펴보면 `hard-reset`도 되돌릴 수 있다.
 `git reflog` : git에서 보관하는 이력들을 볼 수 있는 명령어
-
-#### `git reflog` 를 이용하면 `hard-reset`도 되돌릴 수 있다.
 
 1. `git reflog` 명령어로 삭제된 commit의 hash id를 확인한다.
 ```bash

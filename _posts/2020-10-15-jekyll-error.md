@@ -1,4 +1,6 @@
 ---
+toc: true
+toc_sticky: true
 title: "jekyll 에러에 대처하는 법"
 excerpt: "커밋 이후 갑자기 로컬 서버가 실행되지 않을 때. 대처법."
 
@@ -10,8 +12,6 @@ tags:
   - jekyll
   - reset
   - solution
-toc: true
-toc_sticky: true
 ---  
 ## 상황
 

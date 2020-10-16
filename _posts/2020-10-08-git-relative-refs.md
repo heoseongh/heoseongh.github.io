@@ -1,4 +1,6 @@
 ---
+toc: true
+toc_sticky: true
 title: "Relative Refs - 상대참조(^)"
 excerpt: "checkout 과 상대참조를 이용하여 자유롭게 과거 시점으로 돌아가보고 reflog 명령어로 손실된 커밋의 내역을 확인해보자."
 
@@ -8,8 +10,6 @@ tags:
   - Git
   - checkout
   - reflog
-toc: true
-toc_sticky: true
 ---
 * 명령어를 통해 현 위치를 기준으로 시점을 이동할 때 사용한다.
 * 매번 `git log` 명령으로 해시를 확인할 필요가 없다.

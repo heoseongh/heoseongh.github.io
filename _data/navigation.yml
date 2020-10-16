@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "프로그래머스"
+    url: /programmers/
   - title: "카테고리"
     url: /categories/
   - title: "태그"
