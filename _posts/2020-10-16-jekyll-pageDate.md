@@ -13,7 +13,7 @@ tags:
 
 ## 결과물
 
-![2020-10-16-pageDate](https://raw.githubusercontent.com/heoseongh/heoseongh.github.io/main/assets/images/jekyll/2020-10-16-pageDate.png)
+![2020-10-16-pageDate](https://raw.githubusercontent.com/heoseongh/heoseongh.github.io/main/assets/images/jekyll/2020-10-16-setting-pageDate.png)
 
 시간이 없다면 [commit f72906](https://github.com/heoseongh/heoseongh.github.io/commit/f7290634095fb738e49c9c80f2de5c8d6a0ba5d3#diff-547ab8d2983a8826bba71ca77904355bbd8556fafa5ed274deaa975eb453763f)을 참고해서 빠르게 수정하자.
 
