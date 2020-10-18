@@ -17,7 +17,15 @@ tags:
 ![](https://raw.githubusercontent.com/heoseongh/heoseongh.github.io/main/assets/images/jekyll/2020-10-14-setting-postDate.png)
 
 
-구글링을 해보면 포스팅된 글들의 목록을 보여주는 부분(`_includes/archive-single.html`)과 글을 보여주는 부분(`_includes/single.html`) 2군데를 수정하면 된다고 하는데 아무리 건드려도 안된다..
+구글링을 해보면 포스팅된 글들의 목록을 보여주는 부분(`_includes/archive-single.html`)과 글을 보여주는 부분(`_includes/single.html`) 두 군데를 수정하면 된다고 하는데 아무리 건드려도 안된다.. 결국 이것저것 건드려보다가 방법을 찾아냈다. 
+
+포스팅을 읽을 시간이 없다면 [commit 95d60de](https://github.com/heoseongh/heoseongh.github.io/commit/95d60de577b8f90c7fab02ece706debaa403511e#diff-ecec67b0e1d7e17a83587c6d27b6baaaa133f42482b07bd3685c77f34b62d883)를 참고하여 변경 사항만 챙기고 넘어가자.
+
+## step1.
+
+`archive-single.html` 에서 <h2>태그 이후에 있는 `include page_meta.html` 코드를 이해해보자.
+
+> archive-signle.html
 
 ```html
 ...
@@ -34,9 +42,12 @@ tags:
 
 * { % include page_meta.html % } : page_meta.html 파일을 끼워넣는다.
 
-> 위와 같은 Liquid 언어는 Ruby 기반의 언어로 jekyll에서 사용하는 언어이다.
+> jekyll에서 사용하는 Liquid 언어는 루비 기반의 언어이다. `{ % 태그 % }` 와 같은 형태로 `if-else` 문과 같이 다양한 태그를 실행할 수 있는데 `include` 태그를 사용하면 `_includes` 폴더에 저장된 다른 파일의 내용을 포함시킬 수 있게 된다.
 >
-> 참고: [JekyllDocs](https://jekyllrb-ko.github.io/docs/)
+> 참고: [JekyllDocs](https://jekyllrb-ko.github.io/docs/includes/)
+
+
+## step2.
 
 이제 page_meta.html 파일을 살펴보자. 크게 조건문 3개가 보인다.
 
