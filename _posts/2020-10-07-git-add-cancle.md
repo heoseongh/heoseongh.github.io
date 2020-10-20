@@ -20,7 +20,12 @@ tags:
 1. git restore
 2. git reset
 
-### $ git restore
+### add와 commit을 취소하는 원리는
+
+1. master브랜치를 가리키고 있는 HEAD포인터를 이전 스냅샷으로 이동시키면 `commit`이 취소되는 것과 같고
+2. 그 스냅샷의 index까지 이동한다면 `add`가 취소되는 것이다.
+
+### 1) git restore
 
 ```bash
 # 모든 파일이 Staged 상태로 바뀐다.
@@ -41,7 +46,7 @@ $ git restore --staged <file>		# 특정 파일 add 취소
 $ git restore --staged .				# 모든 파일 add 취소
 ```
 
-### $ git reset
+### 2) git reset
 
 * 뒤에 파일명이 없으면 add한 파일 전체를 취소한다.
 * `reset` 명령어는 `commit`을 취소할때도 옵션을 달리하여 사용한다. 
