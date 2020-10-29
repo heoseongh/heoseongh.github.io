@@ -1,7 +1,13 @@
 # main links
 main:
+  - title: "알고리즘"
+    url: /algorithm/
   - title: "프로그래머스"
     url: /programmers/
+  - title: "백준"
+    url: /baekjoon/
+  - title: "Git"
+    url: /git/
   - title: "카테고리"
     url: /categories/
   - title: "태그"

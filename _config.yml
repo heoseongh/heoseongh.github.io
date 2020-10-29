@@ -283,6 +283,7 @@ defaults:
       comments: true
       share: true
       related: true
+      discription: false
 
   # _pages
   - scope:
