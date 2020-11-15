@@ -3,7 +3,7 @@ title: "add부터 push까지!"
 excerpt: "add부터 push까지의 플로우를 친절하게 설명해보았다."
 
 categories:
-  - GitBlog
+  - Git
 tags:
   - Git
   - add
