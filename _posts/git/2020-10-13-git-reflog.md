@@ -1,5 +1,5 @@
 ---
-title: "reset --hard 복구하기"
+title: "git reset 복구하기"
 excerpt: "hard-reset 해버렸다. 그러나 낙담하지 마라. 우리에겐 reflog가 있으니.."
 
 categories:
@@ -9,7 +9,9 @@ tags:
   - reset
   - reflog
 ---
-## `git reflog` 를 살펴보면 `hard-reset`도 되돌릴 수 있다.
+
+# git reflog 를 살펴보면 hard-reset도 되돌릴 수 있다.
+
 `git reflog` : git에서 보관하는 이력들을 볼 수 있는 명령어
 
 1. `git reflog` 명령어로 삭제된 commit의 hash id를 확인한다.

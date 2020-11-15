@@ -75,6 +75,8 @@ audio:not([controls]) {
   display: none;
 }
 
+/* 게시글 링크 색상 설정 */
+
 a {
   color: $link-color;
 }
