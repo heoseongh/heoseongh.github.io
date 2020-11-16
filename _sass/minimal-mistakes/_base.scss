@@ -138,7 +138,7 @@ a {
   }
 
   &:hover {
-    color: mix(#000, $link-color, 25%);
+    color: mix(#000, $link-color, 0%);
     outline: 0;
   }
 }
