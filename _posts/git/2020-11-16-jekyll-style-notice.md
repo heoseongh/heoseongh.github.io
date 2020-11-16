@@ -1,7 +1,7 @@
 ---
 toc: true
 toc_sticky: true
-title: "jeykll 포스트 작성시 notice 스타일 적용하기"
+title: "jekyll 포스트 작성시 notice 스타일 적용하기"
 excerpt: "notice 스타일을 적용하여 텍스트 블럭을 예쁘게 장식해보자"
 
 categories:
