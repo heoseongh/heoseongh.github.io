@@ -15,7 +15,7 @@ tags:
 
 우선 git은 연결리스트 처럼 세 가지 공간이 유기적으로 연결되어있다.
 
-![2020-10-23-flowChart](https://raw.githubusercontent.com/heoseongh/heoseongh.github.io/main/assets/images/git/2020-10-23-flowChart.png)
+![2020-10-23-flowChart](/assets/images/git/2020-10-23-flowChart.png)
 
 ### add
 
