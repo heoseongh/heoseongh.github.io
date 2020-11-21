@@ -74,7 +74,7 @@
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
       font-family: $sans-serif;
-      font-size: 14px;
+      font-size: 14px;            // 메뉴 탐색 버튼 크기 변경
       font-weight: bold;
       line-height: 1.5;
       text-align: center;
@@ -167,7 +167,7 @@
 /*
      Priority plus navigation
      ========================================================================== */
-
+/* 네비게이션 속성 */
 .greedy-nav {
   position: relative;
   display: -webkit-box;
@@ -184,6 +184,7 @@
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
+    font-size: 20px;
 
     &:hover {
       color: $masthead-link-color-hover;

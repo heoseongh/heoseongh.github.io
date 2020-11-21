@@ -17,7 +17,7 @@
     margin-right: auto;
     /* 메뉴바 패딩 조절 */
     /* padding: 1em; */
-    padding: 0.4em;
+    padding: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -27,8 +27,8 @@
     justify-content: space-between;
     font-family: $sans-serif-narrow;
     /* 메뉴바 텍스트 설정 */
-    font-size: $type-size-4;
-    font-weight: bold;
+    //font-size: $type-size-4;
+    //font-weight: bold;
     
     @include breakpoint($x-large) {
       max-width: $max-width;
