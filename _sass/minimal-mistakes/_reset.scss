@@ -12,7 +12,7 @@ html {
 
   /* medium 페이지 일때 폰트 사이즈 */
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /* large 페이지 일때 폰트 사이즈 축소 20px -> 18px */

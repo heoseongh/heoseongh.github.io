@@ -184,7 +184,7 @@
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
-    font-size: 20px;
+    //font-size: 20px;              // 네비게이션 글자 크기
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -194,9 +194,10 @@
       margin-left: 0;
       margin-right: 0.5rem;
     }
-
+    // 타이틀 속성 //
     &.site-title {
       margin-left: 0;
+      //font-size: 20px;            // 네비게이션 -> 로고 글자 크기
     }
   }
 
