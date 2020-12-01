@@ -77,6 +77,11 @@ body {
   }
 }
 
+// 페이지 업데이트 날짜 구역 마진 제거
+.page__date {
+  margin-bottom: 0;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
