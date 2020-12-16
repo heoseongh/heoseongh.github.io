@@ -10,6 +10,7 @@ tags:
   - Git
   - GitBlog
   - jekyll
+  - Custom
 ---
 
 # NOTICE TEXT BLOCKS

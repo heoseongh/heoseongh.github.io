@@ -10,7 +10,7 @@ tags:
   - Git
   - GitBlog
   - jekyll
-  - custom
+  - Custom
 ---
 
 # 하이라이트 스타일 커스텀하기
