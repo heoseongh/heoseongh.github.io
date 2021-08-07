@@ -11,7 +11,7 @@ tags:
   - GitBlog
   - jekyll
   - reset
-  - TrubleShooting
+  - TroubleShooting
 ---  
 ## 상황
 

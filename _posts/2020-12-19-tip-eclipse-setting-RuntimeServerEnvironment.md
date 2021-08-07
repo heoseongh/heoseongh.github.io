@@ -13,7 +13,7 @@ tags:
   - Tomcat
 --- 
 
-## :( Truble
+## :( Trouble
 
 이클립스에 웹 프로젝트를(.war) import 했더니 다음과 같은 에러가 떴다.
 

@@ -11,7 +11,7 @@ tags:
   - zsh
 --- 
 
-## :( Truble
+## :( Trouble
 
 iTerm에서 설치했던 oh-my-zsh 테마를 업데이트했는데 아래와 같은 에러가 떴다.
 

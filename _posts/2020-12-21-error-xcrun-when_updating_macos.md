@@ -7,10 +7,10 @@ excerpt: ""
 categories:
   - MacOS
 tags:
-  - TrubleShooting
+  - TroubleShooting
 --- 
 
-## :( Truble
+## :( Trouble
 
 <span style="background-color:yellow; color:red;">ERROR: xcrun: error: invalid active developer path</span>
 

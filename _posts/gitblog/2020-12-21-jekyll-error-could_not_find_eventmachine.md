@@ -8,10 +8,10 @@ tags:
   - Git
   - GitBlog
   - jekyll
-  - TrubleShooting
+  - TroubleShooting
 ---  
 
-## :( Truble
+## :( Trouble
 
 macOS 카탈리나 -> 빅서로 업데이트 한 직후, 블로그를 모니터링하기 위해 터미널에서 `jekyll serve` 명령어를 실행했더니 다음과 같은 에러가 떴다.
 

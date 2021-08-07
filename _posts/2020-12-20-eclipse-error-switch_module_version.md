@@ -11,10 +11,10 @@ tags:
   - Eclipse
   - Setting
   - Tomcat
-  - TrubleShooting
+  - TroubleShooting
 --- 
 
-## :( Truble
+## :( Trouble
 저번 포스팅 [**<이클립스 서버 런타임 환경 설정하기: 아파치 톰캣>**](/jsp/tip-eclipse-setting-RuntimeServerEnvironment)에서 마지막에 예고했던 대로 다음의 에러를 해결해 보자.
 
 Run on Server 로 JSP 프로젝트를 실행하면 톰캣 서버 버전을 선택하라는 대화상자가 나온다. 여기서 자신이 원하는 버전을 선택하면 된다. 나는 8.5 버전을 선택했는데 다음과 같은 에러가 뜨면서 버튼들도 비활성화되었다.
